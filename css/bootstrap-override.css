@@ -1,0 +1,75 @@
+:root
+{
+    --navbar_font_size: 16px;
+    --navbar_font_color: rgb(255, 255, 255);
+    --navbar_font_color_hover: #fbb44c;
+    --nav_item_bg_color: rgba(255, 255, 255, 0.1);
+    --dropdown_bg_color: hsl(229, 58%, 15%);
+    --dropdown_border_color: hsl(229, 58%, 20%);
+}
+
+.navbar-nav
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: var(--navbar_font_size);
+    color: var(--navbar_font_color);
+}
+
+.navbar-nav > li
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: var(--navbar_font_size);
+    color: var(--navbar_font_color);
+}
+
+.dropdown-menu
+{
+    background-color: var(--dropdown_bg_color);
+    border-radius: 8px;
+    border: 1px solid var(--dropdown_border_color);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: var(--navbar_font_size);
+    color: var(--navbar_font_color);
+}
+
+.dropdown-item
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: var(--navbar_font_size);
+    color: var(--navbar_font_color);
+}
+
+.dropdown-item:hover
+{
+    background-color: var(--dropdown_bg_color);
+    color: var(--navbar_font_color_hover);
+}
+
+.nav-item
+{
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-link
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: var(--navbar_font_size);
+    color: var(--navbar_font_color);
+}
+
+.nav-link:hover
+{
+    color: var(--navbar_font_color_hover);
+}
+
+.card
+{
+    margin: 10px;
+}

@@ -1,0 +1,33 @@
+:root
+{
+    --light_blue: rgb(116, 176, 187);
+    --dark_blue: rgb(0, 32, 100);
+    --bg_main_grad_color1: #191e30;
+    --bg_main_grad_color2: #b58c7f;
+}
+
+body
+{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(160deg, rgb(var(--bg_main_grad_color1)), rgb(var(--bg_main_grad_color2)));
+}
+
+.box
+{
+    width: auto;
+    height: auto;
+
+    padding: 15px;
+    margin: 20px;
+
+    border: 1px solid rgb(63, 99, 177);
+}
+
+.box:hover
+{
+    border-color: rgb(197, 209, 33);
+    border-width: 10px;
+    box-shadow: 4px 8px 16px 0px rgb(46, 46, 46);
+}

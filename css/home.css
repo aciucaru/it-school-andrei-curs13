@@ -1,0 +1,88 @@
+.bracket-highlight
+{
+    color: var(--top_section_bracket_color);
+}
+
+.middle-section-container
+{
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.middle-section-title
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: hsl(229, 58%, 20%);
+    font-weight: bold;
+}
+
+.top-section-logos
+{
+    width: auto;
+    height: 30px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+.horizontal-bar
+{
+    width: auto;
+    height: 4px;
+
+    margin-top: 10px;
+    background-color: #2bb686;
+
+    border-radius: 50vh;
+}
+
+.bottom-text-container
+{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.data-inceput
+{
+    height: fit-content;
+
+    margin: 10px;
+
+    color:rgb(0, 0, 0);
+}
+
+.data-inceput::before
+{
+    content: url(../img/calendar-mini.png);
+    vertical-align: -50%;
+}
+
+.locatie
+{
+    height: fit-content;
+
+    margin: 10px;
+
+    border-color: hsla(0, 0%, 100%, 0);
+    border-radius: 5px;
+    background-color: var(--navbar_font_color_hover);
+    color:rgb(0, 0, 0);
+}
+
+.locatie::before
+{
+    content: url(../img/location-baloon.png);
+    vertical-align: -50%;
+}
+
+.img-container
+{
+
+}
+
+.img
+{
+    
+}
+
